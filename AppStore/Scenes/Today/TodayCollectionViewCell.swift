@@ -47,6 +47,10 @@ final class TodayCollectionViewCell: UICollectionViewCell {
     func setup() {
         setupSubViews()
         
+        layer.shadowColor = UIColor.black.cgColor
+        layer.shadowOpacity = 0.3
+        layer.shadowRadius = 10
+        
         subTitleLabel.text = "서브 타이틀"
         descriptionLabel.text = "설명 설명"
         titleLabel.text = "메인 타이틀"
