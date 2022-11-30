@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2771CCD92937498000B1F864 /* FeatureSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771CCD82937498000B1F864 /* FeatureSectionView.swift */; };
 		27D23785292F122100884DC5 /* TodayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D23784292F122100884DC5 /* TodayCollectionViewCell.swift */; };
 		27D23787292F2F6700884DC5 /* TodayCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D23786292F2F6700884DC5 /* TodayCollectionHeaderView.swift */; };
 		27D23789292F591A00884DC5 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D23788292F591A00884DC5 /* AppViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2771CCD82937498000B1F864 /* FeatureSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureSectionView.swift; sourceTree = "<group>"; };
 		27D23784292F122100884DC5 /* TodayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCollectionViewCell.swift; sourceTree = "<group>"; };
 		27D23786292F2F6700884DC5 /* TodayCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCollectionHeaderView.swift; sourceTree = "<group>"; };
 		27D23788292F591A00884DC5 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
@@ -80,8 +82,8 @@
 		27F0A852292E1E0D005051AA /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				27F0A855292E1F09005051AA /* Today */,
 				27F0A854292E1F03005051AA /* App */,
+				27F0A855292E1F09005051AA /* Today */,
 				27F0A83C292E1B70005051AA /* TabBarController.swift */,
 			);
 			path = Scenes;
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				27D23788292F591A00884DC5 /* AppViewController.swift */,
+				2771CCD82937498000B1F864 /* FeatureSectionView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				27D23789292F591A00884DC5 /* AppViewController.swift in Sources */,
 				27F0A83B292E1B70005051AA /* SceneDelegate.swift in Sources */,
 				27D23785292F122100884DC5 /* TodayCollectionViewCell.swift in Sources */,
+				2771CCD92937498000B1F864 /* FeatureSectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
