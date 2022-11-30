@@ -12,6 +12,7 @@
 		2771CCDD2937502C00B1F864 /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771CCDC2937502C00B1F864 /* SeparatorView.swift */; };
 		2771CCDF2937515600B1F864 /* RankingFeatureSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771CCDE2937515600B1F864 /* RankingFeatureSectionView.swift */; };
 		2771CCE12937529700B1F864 /* RankingFeatureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771CCE02937529700B1F864 /* RankingFeatureCollectionViewCell.swift */; };
+		2771CCE32937537700B1F864 /* ExchangeCodeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771CCE22937537700B1F864 /* ExchangeCodeButtonView.swift */; };
 		27D23785292F122100884DC5 /* TodayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D23784292F122100884DC5 /* TodayCollectionViewCell.swift */; };
 		27D23787292F2F6700884DC5 /* TodayCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D23786292F2F6700884DC5 /* TodayCollectionHeaderView.swift */; };
 		27D23789292F591A00884DC5 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D23788292F591A00884DC5 /* AppViewController.swift */; };
@@ -31,6 +32,7 @@
 		2771CCDC2937502C00B1F864 /* SeparatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
 		2771CCDE2937515600B1F864 /* RankingFeatureSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingFeatureSectionView.swift; sourceTree = "<group>"; };
 		2771CCE02937529700B1F864 /* RankingFeatureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingFeatureCollectionViewCell.swift; sourceTree = "<group>"; };
+		2771CCE22937537700B1F864 /* ExchangeCodeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeCodeButtonView.swift; sourceTree = "<group>"; };
 		27D23784292F122100884DC5 /* TodayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCollectionViewCell.swift; sourceTree = "<group>"; };
 		27D23786292F2F6700884DC5 /* TodayCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCollectionHeaderView.swift; sourceTree = "<group>"; };
 		27D23788292F591A00884DC5 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				2771CCDC2937502C00B1F864 /* SeparatorView.swift */,
 				2771CCDE2937515600B1F864 /* RankingFeatureSectionView.swift */,
 				2771CCE02937529700B1F864 /* RankingFeatureCollectionViewCell.swift */,
+				2771CCE22937537700B1F864 /* ExchangeCodeButtonView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			files = (
 				27F0A857292E1F3D005051AA /* TodayViewController.swift in Sources */,
 				27F0A83D292E1B70005051AA /* TabBarController.swift in Sources */,
+				2771CCE32937537700B1F864 /* ExchangeCodeButtonView.swift in Sources */,
 				2771CCDD2937502C00B1F864 /* SeparatorView.swift in Sources */,
 				27F0A839292E1B70005051AA /* AppDelegate.swift in Sources */,
 				27D23787292F2F6700884DC5 /* TodayCollectionHeaderView.swift in Sources */,
