@@ -14,6 +14,12 @@
 		2771CCE12937529700B1F864 /* RankingFeatureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771CCE02937529700B1F864 /* RankingFeatureCollectionViewCell.swift */; };
 		2771CCE32937537700B1F864 /* ExchangeCodeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771CCE22937537700B1F864 /* ExchangeCodeButtonView.swift */; };
 		2771CCE52937544000B1F864 /* AppDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771CCE42937544000B1F864 /* AppDetailViewController.swift */; };
+		2771CCE9293756BB00B1F864 /* Today.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2771CCE6293756BB00B1F864 /* Today.plist */; };
+		2771CCEA293756BB00B1F864 /* RankingFeature.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2771CCE7293756BB00B1F864 /* RankingFeature.plist */; };
+		2771CCEB293756BB00B1F864 /* Feature.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2771CCE8293756BB00B1F864 /* Feature.plist */; };
+		2771CCED293756FD00B1F864 /* Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771CCEC293756FD00B1F864 /* Today.swift */; };
+		2771CCEF2937571E00B1F864 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771CCEE2937571E00B1F864 /* Feature.swift */; };
+		2771CCF12937573300B1F864 /* RankingFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771CCF02937573300B1F864 /* RankingFeature.swift */; };
 		27D23785292F122100884DC5 /* TodayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D23784292F122100884DC5 /* TodayCollectionViewCell.swift */; };
 		27D23787292F2F6700884DC5 /* TodayCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D23786292F2F6700884DC5 /* TodayCollectionHeaderView.swift */; };
 		27D23789292F591A00884DC5 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D23788292F591A00884DC5 /* AppViewController.swift */; };
@@ -35,6 +41,12 @@
 		2771CCE02937529700B1F864 /* RankingFeatureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingFeatureCollectionViewCell.swift; sourceTree = "<group>"; };
 		2771CCE22937537700B1F864 /* ExchangeCodeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeCodeButtonView.swift; sourceTree = "<group>"; };
 		2771CCE42937544000B1F864 /* AppDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailViewController.swift; sourceTree = "<group>"; };
+		2771CCE6293756BB00B1F864 /* Today.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Today.plist; sourceTree = "<group>"; };
+		2771CCE7293756BB00B1F864 /* RankingFeature.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RankingFeature.plist; sourceTree = "<group>"; };
+		2771CCE8293756BB00B1F864 /* Feature.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Feature.plist; sourceTree = "<group>"; };
+		2771CCEC293756FD00B1F864 /* Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Today.swift; sourceTree = "<group>"; };
+		2771CCEE2937571E00B1F864 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
+		2771CCF02937573300B1F864 /* RankingFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingFeature.swift; sourceTree = "<group>"; };
 		27D23784292F122100884DC5 /* TodayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCollectionViewCell.swift; sourceTree = "<group>"; };
 		27D23786292F2F6700884DC5 /* TodayCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCollectionHeaderView.swift; sourceTree = "<group>"; };
 		27D23788292F591A00884DC5 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
@@ -80,10 +92,13 @@
 		27F0A837292E1B70005051AA /* AppStore */ = {
 			isa = PBXGroup;
 			children = (
-				27F0A853292E1E16005051AA /* Data */,
-				27F0A852292E1E0D005051AA /* Scenes */,
 				27F0A838292E1B70005051AA /* AppDelegate.swift */,
 				27F0A83A292E1B70005051AA /* SceneDelegate.swift */,
+				2771CCEC293756FD00B1F864 /* Today.swift */,
+				2771CCEE2937571E00B1F864 /* Feature.swift */,
+				2771CCF02937573300B1F864 /* RankingFeature.swift */,
+				27F0A853292E1E16005051AA /* Data */,
+				27F0A852292E1E0D005051AA /* Scenes */,
 				27F0A841292E1B71005051AA /* Assets.xcassets */,
 				27F0A843292E1B71005051AA /* LaunchScreen.storyboard */,
 				27F0A846292E1B71005051AA /* Info.plist */,
@@ -105,6 +120,9 @@
 		27F0A853292E1E16005051AA /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				2771CCE8293756BB00B1F864 /* Feature.plist */,
+				2771CCE7293756BB00B1F864 /* RankingFeature.plist */,
+				2771CCE6293756BB00B1F864 /* Today.plist */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -199,7 +217,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2771CCEA293756BB00B1F864 /* RankingFeature.plist in Resources */,
 				27F0A845292E1B71005051AA /* LaunchScreen.storyboard in Resources */,
+				2771CCEB293756BB00B1F864 /* Feature.plist in Resources */,
+				2771CCE9293756BB00B1F864 /* Today.plist in Resources */,
 				27F0A842292E1B71005051AA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +233,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				27F0A857292E1F3D005051AA /* TodayViewController.swift in Sources */,
+				2771CCED293756FD00B1F864 /* Today.swift in Sources */,
 				27F0A83D292E1B70005051AA /* TabBarController.swift in Sources */,
 				2771CCE32937537700B1F864 /* ExchangeCodeButtonView.swift in Sources */,
+				2771CCF12937573300B1F864 /* RankingFeature.swift in Sources */,
+				2771CCEF2937571E00B1F864 /* Feature.swift in Sources */,
 				2771CCDD2937502C00B1F864 /* SeparatorView.swift in Sources */,
 				27F0A839292E1B70005051AA /* AppDelegate.swift in Sources */,
 				27D23787292F2F6700884DC5 /* TodayCollectionHeaderView.swift in Sources */,
