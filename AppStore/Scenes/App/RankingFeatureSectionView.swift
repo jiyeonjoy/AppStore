@@ -44,7 +44,7 @@ final class RankingFeatureSectionView: UIView {
         collectionView.showsHorizontalScrollIndicator = false
 
         collectionView.register(
-            UICollectionViewCell.self,
+            RankingFeatureCollectionViewCell.self,
             forCellWithReuseIdentifier: "RankingFeatureCollectionViewCell"
         )
 
@@ -67,7 +67,7 @@ extension RankingFeatureSectionView: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         CGSize(
             width: collectionView.frame.width - 32.0,
-            height: 30
+            height: RankingFeatureCollectionViewCell.height
         )
     }
 }
@@ -81,9 +81,9 @@ extension RankingFeatureSectionView: UICollectionViewDataSource {
         let cell = collectionView.dequeueReusableCell(
             withReuseIdentifier: "RankingFeatureCollectionViewCell",
             for: indexPath
-        )
-        cell.backgroundColor = .red
-        return cell
+        ) as? RankingFeatureCollectionViewCell
+        cell?.setup()
+        return cell ?? UICollectionViewCell()
     }
 }
 
@@ -106,7 +106,7 @@ private extension RankingFeatureSectionView {
 
         collectionView.snp.makeConstraints {
             $0.top.equalTo(titleLabel.snp.bottom).offset(16.0)
-            $0.height.equalTo(30 * 3)
+            $0.height.equalTo(RankingFeatureCollectionViewCell.height * 3)
             $0.leading.equalToSuperview()
             $0.trailing.equalToSuperview()
         }
